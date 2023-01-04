@@ -1,6 +1,19 @@
 <template>
   <div class="container mt-2 pt-2">
-
+    <div class="row">
+        <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+          <iframe style="width:320px;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0">
+          </iframe>
+        </div>
+        <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+          <iframe style="width:320px;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-bancos-y-casas-de-cambio" frameborder="0">
+          </iframe>
+        </div>
+        <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+          <iframe style="width:320px;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc" src="https://dolarhoy.com/i/cotizaciones/dolar-mep" frameborder="0">
+          </iframe>
+        </div>
+    </div>
     <div class="row">
       <h1>ARS Exchanges</h1>
       <div class="col-xl-3 col-md-6 mb-4" v-for="exchange in exchanges" :key="exchange.name">
